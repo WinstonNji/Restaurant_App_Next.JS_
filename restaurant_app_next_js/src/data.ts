@@ -1,5 +1,5 @@
 type Product = {
-  id: string;
+  id: number;
   title: string;
   desc?: string;
   img?: string;
@@ -208,7 +208,7 @@ export const featuredProducts: Products = [
 
 export const pizzas: Products = [
   {
-    id: "1",
+    id: 1,
     title: "Sicilian",
     desc: "Ignite your taste buds with a fiery combination of spicy pepperoni, jalapeños, crushed red pepper flakes, and melted mozzarella cheese, delivering a kick with every bite.",
     img: "/temporary/p1.png",
@@ -229,7 +229,7 @@ export const pizzas: Products = [
     ],
   },
   {
-    id: "2",
+    id: 2,
     title: "Mediterranean Delight",
     desc: "Embark on a culinary journey with this Mediterranean-inspired creation, featuring zesty feta cheese, Kalamata olives, sun-dried tomatoes, and a sprinkle of oregano.",
     img: "/temporary/p8.png",
@@ -250,7 +250,7 @@ export const pizzas: Products = [
     ],
   },
   {
-    id: "3",
+    id: 3,
     title: "Bella Napoli",
     desc: "A classic Italian delight featuring a thin, crispy crust, tangy tomato sauce, fresh mozzarella, and a medley of aromatic herbs topped with lettuce, tomatoes, and a dollop of tangy mayo.",
     img: "/temporary/p3.png",
@@ -271,7 +271,7 @@ export const pizzas: Products = [
     ],
   },
   {
-    id: "4",
+    id: 4,
     title: "Pesto Primavera",
     desc: "A classic Italian delight featuring a thin, crispy crust, tangy tomato sauce, fresh mozzarella, and a medley of aromatic herbs topped with lettuce, tomatoes, and a dollop of tangy mayo.",
     img: "/temporary/p10.png",
@@ -292,7 +292,7 @@ export const pizzas: Products = [
     ],
   },
   {
-    id: "5",
+    id: 5,
     title: "Veggie Supreme",
     desc: "A classic Italian delight featuring a thin, crispy crust, tangy tomato sauce, fresh mozzarella, and a medley of aromatic herbs topped with lettuce, tomatoes, and a dollop of tangy mayo.",
     img: "/temporary/p11.png",
@@ -313,7 +313,7 @@ export const pizzas: Products = [
     ],
   },
   {
-    id: "6",
+    id: 6,
     title: "Four Cheese Fantasy",
     desc: "Experience pure cheesy bliss with a melty blend of mozzarella, cheddar, provolone, and Parmesan cheeses, creating a rich and indulgent pizza experience.",
     img: "/temporary/p12.png",

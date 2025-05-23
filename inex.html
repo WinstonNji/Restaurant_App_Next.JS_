@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    fff
+</body>
+    <script>
+        let number = [
+            { 'id' : 2 },
+            { 'id' : 55 }
+        ]
+
+        const toFind = 55
+
+        number.map((element) => {
+            console.log(element, 'loop')
+
+            if(toFind === element.id) console.log('found', element)
+        })
+
+        let nuer = number.filter((element) => {
+            if(toFind == element.id) return element
+        })
+
+        console.log(nuer, 'neur')
+
+        
+        
+    </script>
+</html>
